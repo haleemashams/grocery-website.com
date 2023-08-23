@@ -24,7 +24,7 @@ const signup = () => {
                     const user = { email: email };
                     localStorage.setItem('user', JSON.stringify(user));
                     alert('User created successfully.')
-                    window.location.href = '../html files/signin.html'
+                    window.location.href = '../html files/checkout.html'
                 })
                 .catch((error) => {
                     alert(error);
@@ -74,7 +74,7 @@ const signin = () => {
                     else {
                         const user = { email: email };
                         localStorage.setItem('user', JSON.stringify(user));
-                        window.location.href = '../html files/checkout.html'
+                        window.location.href = '../html files/page13.html'
                     }
                 } else {
                     alert("No data available");

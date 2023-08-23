@@ -1,3 +1,5 @@
+ 
+ 
  .div2 {
     display: flex;
     justify-content: center;
@@ -72,8 +74,8 @@
 }
 .salepur{
     display:flex;
-    /* justify-content:;
-    align-items: center; */
+    justify-content:center;
+    align-items: center;
     /* padding: 1em; */
     font-size: 20px;
   
@@ -83,13 +85,13 @@
     padding: 2em;
     text-align: center;
     cursor: pointer;
-
+   
 }
 
 .div4{
     display: flex;
-    /* justify-content: center;
-    align-items: center;  */
+    justify-content: center;
+    align-items: center; 
     /* height: 100vh; */
     padding: 1em;
 }
